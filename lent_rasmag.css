@@ -10,8 +10,7 @@ body {
 .header
 {
      position: fixed;
-    margin-left: 580px;
-    margin-top: -60px;
+    margin-top: 0px;
     
     
 }
@@ -22,25 +21,24 @@ body {
         
 	}
 }
-.header a
+.menu a
 {
-	font-size:20px;
+	font-size:16px;
     color: black;
-   float: ;
-    margin-right: 20px;
+	font-weight:bold;
 }
 
 .menu
 {
-	margin-left:40px;
+	margin-right:130px;
 	color:black;
-   margin-top:-40px;
+   margin-top:20px;
+	float: right;
 }
 .header img
 {
     width: 200px;
     height: 50px;
-    margin-left: -560px;
     margin-top: 0px;
 }
 header img{display: inline-block!important;}
@@ -90,10 +88,11 @@ header img{display: inline-block!important;}
 {
 
     color: lime;
+	padding: 10px;
 }
 .panel-box a:hover, .buy-btn:hover
 {
-    padding: 10px;
+    text-decoration: none;
     color: white;
     background-color: lime;
 }
@@ -202,9 +201,9 @@ h1{display: block!important;}
  .lent
 {
     margin-left: 250px;
-    margin-top: 60px;
+    margin-top: 16px;
     width: 650px;
-    font-size: 13px;
+    font-size: 16px;
 
 }
 
@@ -237,7 +236,7 @@ h1{display: block!important;}
 	}
 .lent img
 {
-    height: 200px;
+    height: 250px;
     width: 190px;
     
 }
@@ -271,7 +270,7 @@ h1{display: block!important;}
  .lent p
 {
     margin-left: 200px;
-    margin-top: -200px;
+    margin-top: -250px;
 }
 .lent p{display: inline-block!important;}
 
@@ -306,7 +305,7 @@ h1{display: block!important;}
     margin-left: 250px;
     margin-top: 10px;
     width: 650px;
-    font-size: 13px;
+    font-size: 16px;
 }
 .stanza{display: inline-block!important;}
 
